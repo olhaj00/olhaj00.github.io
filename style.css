@@ -1,124 +1,110 @@
-*{
-    margin:0;
-    padding:0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>haj podge</title>
+</head>
+<body>
+    <h1>haj podge</h1>
+    <div class="box">
+    <img src="media/profile pic.JPG">
+    <div class="section">
+        <h3>about me</h3>
+        <p>26F, Seoul.</p>
+        <br>
+        <h5>(likes)</h5>
+        <br>
+        <div class="favorites">
+            <ul>
+                <li>libgen.is</li>
+                <li>complexity in simplicity back to complexity <br>(the beauty of everday things, in praise of shadows).<br/></li>
+                <li>bossa nova</li>
+                <li>disco</li>
+                <li>internet culture</li>
+                <li>crinkling corn plastic</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <h3>pies</h3>
+        <p1>I decided I'm going to be the kind of dinner guest who brings homemade pies. I want to try making at least one new one every month of 2024.</p1>
+    </div>
 
-h1{
-    color:rgb(0, 0, 0);
-    text-align: center;
-}
+    <div class="section">
+    <div class="yearofpie">
+        <div class="card">
+            <img src="media/pie/january.png" class="pie">
+            <p class="month">January</p>
+            <p class="flavor">French Silk Pie<sup>1</sup></p>
+        </div>
+        <div class="card">
+            <div class="february">x</div>
+            <p class="month">February</p>
+            <p class="flavor">Ran out of time.<sup>2</sup></p>
+        </div>
+        <div class="card">
+            <img src="media/pie/march.png" class="pie">
+            <p class="month">March</p>
+            <p class="flavor">Cherry + Lattice</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">April</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">May</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">June</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">July</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">August</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">September</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">October</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">November</p>
+        </div>
+        <div class="card">
+            <div class="nopie">?</div>
+            <p class="caption">December</p>
+        </div>
+    </div>
+    <div class="footnote">
+        <p>1. Forgot to take pic of finished pie.</p>
+        <p>2. : ( </p>
+    </div>
+    <br>
+    <h3>not tweets</h3>
+    <div class="favorites">
+    <ul>
+        <li>I've always felt too big for my briches in a sense, but now I feel myself filling them out finally. I was always meant to be 26 years old.</li>
+        <br>
+        <li><i>"the measure of a woman's power is the degree of suffering which she can punish her lover." - mishima </i></li>
+        <br>
+        <li>sometimes it's easier not to resist.</li>
+        <br>
+        <li>know thyself; nothing in excess.</li>
+        <br>
+        <li>joy can be learned!!!</li>
+    </ul>
+    </div>
 
-body{
-    background-color: w;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.section{
-    margin-bottom:30px;
-}
-
-ul{
-    color:deeppink;
-}
-
-p{
-    color:rgb(0, 0, 0);
-}
-
-a{
-    color:rgb(0, 42, 252)
-}
-
-
-
-a:hover{
-    color:darkkhaki;
-    font-size: 15pt;
-    transition:50ms;
-}
-
-img:hover{
-    transform:rotate(-5deg);
-    transition:50ms;
-}
-
-img{
-    width:100%;
-}
-
-.box{
-    border:rgb(255, 255, 255) solid 3px;
-    padding: 50px 50px;
-    margin: auto;
-    max-width: 500px;
-    box-sizing:border-box;
-    text-align: justify;
-}
-
-h3{
-    padding-bottom:8px;
-}
-
-
-/*Pie Section*/
-
-.yearofpie{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    row-gap:10px;
-}
-
-.card{
-    padding:5px 0;
-    width: 80px;
-    height: 100px;
-    border:red solid 1px;
-    align-items:center;
-    text-align:center;
-}
-
-.month{
-    font-size:14px;
-    text-align:center;
-}
-
-.flavor{
-    font-size:10px;
-}
-
-.nopie{
-    background-color:rgb(183, 183, 183);
-    height:70px;
-    width:70px;
-    border-radius:50%;
-    vertical-align:center;
-    font-size:60px;
-    line-height:70px;
-    color:white;
-    margin:auto;
-}
-
-.pie{
-    height:66px;
-}
-
-.february{
-    background-color:rgb(183, 183, 183);
-    height:70px;
-    width:70px;
-    border-radius:50%;
-    vertical-align:center;
-    font-size:60px;
-    line-height:70px;
-    color:white;
-    margin:auto;
-}
-
-.footnote{
-    padding-top:10px;
-    font-size:10px;
-    text-indent:20px;
-}
-/*----------*/
+</body>
+</html>
