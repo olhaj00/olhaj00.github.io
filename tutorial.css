@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.blue{
+    background-color:rgb(255, 255, 255);
+    width:600px;
+    display:flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+    padding-left:100px;
+    padding-right:100px;
+    margin:auto;
+}
+.red{
+    width: 180px;
+    background-color:red;
+    border: aliceblue solid 1px;
+    margin-bottom:30px;
+    object-fit:scale-down;
+}
